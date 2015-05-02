@@ -39,6 +39,8 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'dotenv-rails'
+  gem 'pry-rails'
 end
 
 
@@ -51,3 +53,5 @@ gem 'shoulda-matchers', group: [:development, :test], require: false
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'ember-cli-rails'
+gem 'google-api-client', :require => 'google/api_client'
+gem 'omniauth-google-oauth2'
