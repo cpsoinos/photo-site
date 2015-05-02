@@ -50,3 +50,4 @@ gem 'valid_attribute', group: [:development, :test]
 gem 'shoulda-matchers', group: [:development, :test], require: false
 gem 'devise'
 gem 'twitter-bootstrap-rails'
+gem 'ember-cli-rails'
