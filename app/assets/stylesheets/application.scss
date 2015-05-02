@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+
+ */
+
+body {
+  background-color: #FAFAFA;
+}
+
+nav.navbar {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: #FAFAFA;
+  height: 10rem;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+  font-family: BebasNeueRegular, Arial, sans-serif;
+  src:url('BebasNeue Regular.otf');
+  src:url('BebasNeue Regular.otf?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #E88700;
+  -o-transition: color .4s ease-in, color .4s ease-out;
+  -ms-transition: color .4s ease-in, color .4s ease-out;
+  -moz-transition: color .4s ease-in, color .4s ease-out;
+  -webkit-transition: color .4s ease-in, color .4s ease-out;
+  transition: color .4s ease-in, color .4s ease-out;
+
+  &:hover {
+    color: black;
+  }
+}
